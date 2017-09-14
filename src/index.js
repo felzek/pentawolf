@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import MenuBar from './MenuBar.js';
+import Banner from "./Banner.js";
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<MenuBar />, document.getElementById('menu-bar'));
+ReactDOM.render(<Banner />, document.getElementById('banner'));
+
 registerServiceWorker();
