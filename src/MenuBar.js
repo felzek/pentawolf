@@ -13,6 +13,8 @@ import DropDownMenu from 'material-ui/DropDownMenu';
 import RaisedButton from 'material-ui/RaisedButton';
 import {Toolbar, ToolbarGroup, ToolbarSeparator, ToolbarTitle} from 'material-ui/Toolbar';
 
+import LoginButtonWithPopup from './LoginButtonWithPopup.js';
+
 injectTapEventPlugin();
 
 const poo = {
@@ -53,7 +55,6 @@ class MenuBar extends Component {
 
           <ToolbarSeparator />
           <RaisedButton label="Login" primary={true} />
-
         </ToolbarGroup>
       </Toolbar>
 
